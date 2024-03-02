@@ -34,16 +34,19 @@ ABC Business Dashboard is a React-based web application developed to help busine
 
 `cd abc-business-dashboard`
 
-3. Install dependencies:
+3. Switch to master branch
+
+`git checkout master`
+
+4. Install dependencies:
 
 `npm install`
 
-4. Start the development server:
+5. Start the development server:
 
 `npm start`
 
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 ## Usage
 
