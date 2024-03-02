@@ -1352,7 +1352,7 @@ const Overview = () => {
                                                     fontWeight: "450",
                                                 }}
                                             >
-                                                Europe
+                                                Asia
                                             </span>
                                             <span className="me-2 px-3 py-1"
                                                 style={{
@@ -1361,12 +1361,12 @@ const Overview = () => {
                                                     color: "#868E96",
                                                 }}
                                             >
-                                                580 Users
+                                                103 Users
                                             </span>
                                             
                                         </p>
                                         <div className="progress-bar-container"> 
-                                            <div className="progress-bar" style={{width: "45%"}}></div> 
+                                            <div className="progress-bar" style={{width: "10%"}}></div> 
                                         </div>  
                                     </div>
                                     <div className="pb-2">
@@ -1382,7 +1382,7 @@ const Overview = () => {
                                                     fontWeight: "450",
                                                 }}
                                             >
-                                                Europe
+                                                Africa
                                             </span>
                                             <span className="me-2 px-3 py-1"
                                                 style={{
@@ -1391,12 +1391,12 @@ const Overview = () => {
                                                     color: "#868E96",
                                                 }}
                                             >
-                                                580 Users
+                                                239 Users
                                             </span>
                                             
                                         </p>
                                         <div className="progress-bar-container"> 
-                                            <div className="progress-bar" style={{width: "45%"}}></div> 
+                                            <div className="progress-bar" style={{width: "15%"}}></div> 
                                         </div>  
                                     </div>
                                     <div className="pb-2">
@@ -1412,7 +1412,7 @@ const Overview = () => {
                                                     fontWeight: "450",
                                                 }}
                                             >
-                                                Europe
+                                                Australia
                                             </span>
                                             <span className="me-2 px-3 py-1"
                                                 style={{
@@ -1421,12 +1421,12 @@ const Overview = () => {
                                                     color: "#868E96",
                                                 }}
                                             >
-                                                580 Users
+                                                78 Users
                                             </span>
                                             
                                         </p>
                                         <div className="progress-bar-container"> 
-                                            <div className="progress-bar" style={{width: "45%"}}></div> 
+                                            <div className="progress-bar" style={{width: "7%"}}></div> 
                                         </div>  
                                     </div>
                                     <div className="pb-2">
@@ -1442,7 +1442,7 @@ const Overview = () => {
                                                     fontWeight: "450",
                                                 }}
                                             >
-                                                Europe
+                                                America
                                             </span>
                                             <span className="me-2 px-3 py-1"
                                                 style={{
@@ -1451,12 +1451,12 @@ const Overview = () => {
                                                     color: "#868E96",
                                                 }}
                                             >
-                                                580 Users
+                                                78 Users
                                             </span>
                                             
                                         </p>
                                         <div className="progress-bar-container"> 
-                                            <div className="progress-bar" style={{width: "45%"}}></div> 
+                                            <div className="progress-bar" style={{width: "25%"}}></div> 
                                         </div>  
                                     </div>
                                 </div>
