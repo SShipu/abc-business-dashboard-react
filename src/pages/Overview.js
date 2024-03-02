@@ -32,7 +32,7 @@ const Overview = () => {
         >
             {/* Overview content */}
             <h4 style={{ fontSize: "22px" }}>Overview</h4>
-            <div className="d-flex justify-content-between align-items-center mt-4">
+            <div className="d-flex justify-content-between flex-wrap align-items-center mt-4">
                 <div className="d-flex justify-content-center align-items-center">
                     <img src={imagePaths.ellipse} alt="" />
                     <div className="ms-4">
