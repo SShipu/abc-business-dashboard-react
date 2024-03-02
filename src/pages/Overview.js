@@ -87,7 +87,7 @@ const Overview = () => {
             <div className="row cards">
                 <div className="col-12 col-lg-8 mt-4 px-2">
                     <Card imagePaths={imagePaths} title="Revenue" subtitle="Report Center" footerTitle="SEE DETAILS">
-                        <div className="p-3 overflow-scroll">
+                        <div className="h-100 p-3 overflow-scroll">
                             {/* body */}
 
                             <div className="row">
