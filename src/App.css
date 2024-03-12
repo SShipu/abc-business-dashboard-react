@@ -170,3 +170,81 @@ tbody, td, tfoot, th, thead, tr {
     margin-left: 0 !important;
     border: none !important;
 }
+
+/* -------------- pi chart --------------*/
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+  
+  .single-chart {
+    width: 50%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    height: 65px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke-width: 3.8;
+  }
+
+  .circle-cl-1 {
+    stroke: #5caef3;
+  }
+
+  .circle-cl-2 {
+    stroke: #f3f3f4;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.red .circle {
+    stroke: #FF6B6B;
+  }
+
+  .circular-chart.white .circle {
+    stroke: #fff;
+  }
+  
+  
+  .percentage {
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+    font-weight: 600;
+  }
+  .percentage-text-white {
+    fill: #fff;
+  }
+
+    .revenue-container {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
+  @media screen and (min-width: 992px) and (max-width: 1174px)  {
+    .revenue-container {
+        padding: 1rem !important;
+    }
+    .revenue-text {
+        font-size: 13px !important;
+    }
+  }

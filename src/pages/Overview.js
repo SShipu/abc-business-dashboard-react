@@ -2,6 +2,7 @@
 import React from "react";
 import Card from "../views/commons/Card.js";
 import Dropdown from 'react-bootstrap/Dropdown';
+import '../App.css';
 
 const imagePaths = {
     ellipse: require("../assets/image/ellipse.png"),
@@ -12,8 +13,6 @@ const imagePaths = {
     menu: require("../assets/image/icons/menu.svg").default,
     right: require("../assets/image/icons/right.svg").default,
     revenue: require("../assets/image/chart/revenue.png"),
-    pie1: require("../assets/image/chart/Pie_CHART2.png"),
-    pie2: require("../assets/image/chart/Pie_CHART.png"),
     down2: require("../assets/image/icons/down2.svg").default,
     up: require("../assets/image/icons/up.svg").default,
     right2: require("../assets/image/icons/right2.svg").default,
@@ -123,7 +122,7 @@ const Overview = () => {
                                         </span>
                                     </p>
                                     <img className="w-100" src={imagePaths.revenue} style={{maxHeight: "170px"}} alt="" />
-                                    <div className="d-flex justify-content-start align-items-center mt-3">
+                                    <div className="d-flex flex-wrap justify-content-start align-items-center mt-3">
                                         <div className="d-flex justify-content-start  align-items-center me-4">
                                             <div
                                                 className="rounded-circle me-2"
@@ -183,12 +182,54 @@ const Overview = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-6 col-md-6 d-flex flex-column justify-content-center align-items-center py-4 py-lg-0 py-md-0">
-                                    <div className="d-flex justify-content-start align-items-center mb-2">
-                                        <img src={imagePaths.pie1} alt="" />
+                                <div className="col-12 col-lg-6 col-md-6 d-flex flex-column justify-content-center align-items-center py-4 py-lg-0 py-md-0 revenue-container">
+                                    <div className="d-flex justify-content-start align-items-center mb-2 rounded-3" style={{backgroundColor: '#339AF0',  width: '100%', height: '100px'}}>
+                                        <div className="flex-wrapper">
+                                            <div className="single-chart">
+                                                <svg viewBox="0 0 36 36" className="circular-chart white">
+                                                <path className="circle-bg circle-cl-1"
+                                                    d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                                />
+                                                <path className="circle"
+                                                    stroke-dasharray="75, 100"
+                                                    d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                                />
+                                                <text x="18" y="20.35" className="percentage percentage-text-white">75%</text>
+                                                </svg>
+                                            </div>
+                                            <div className="text-white d-flex flex-column justify-content-center align-items-start">
+                                                <small style={{fontSize: '11px'}}>Net Income</small>
+                                                <p className="m-0 fw-bold revenue-text">$ 23.100,00</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div className="d-flex justify-content-start  align-items-center mt-2">
-                                        <img src={imagePaths.pie2} alt="" />
+                                    <div className="d-flex justify-content-start  align-items-center mt-2 rounded-3" style={{border: '2px solid #ECF0F2', width: '100%', height: '100px'}}>
+                                        <div className="flex-wrapper">
+                                            <div className="single-chart">
+                                                <svg viewBox="0 0 36 36" className="circular-chart red">
+                                                <path className="circle-bg circle-cl-2"
+                                                    d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                                />
+                                                <path className="circle"
+                                                    stroke-dasharray="37, 100"
+                                                    d="M18 2.0845
+                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                                                />
+                                                <text x="18" y="20.35" className="percentage">24%</text>
+                                                </svg>
+                                            </div>
+                                            <div className="d-flex flex-column justify-content-center align-items-start">
+                                                <small style={{fontSize: '11px', color: '#ADB5BD'}}>Average Spend</small>
+                                                <p className="m-0 fw-bold revenue-text">$ 3.070,00</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
