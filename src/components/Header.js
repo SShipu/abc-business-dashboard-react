@@ -58,7 +58,7 @@ const Header = ({ toggleSidebar, handleSearch }) => {
                     </div>
                 </div>
                 <div className='w-50 d-flex justify-content-end'>
-                    <div className="avatar d-flex align-items-center me-5 cursor-pointer">
+                    <div className="avatar d-none d-lg-flex d-md-flex align-items-center me-5 cursor-pointer ">
                         <Dropdown>
                             <Dropdown.Toggle id="dropdown-basic" style={{backgroundColor: 'transparent', border: "none"}}>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@ const Header = ({ toggleSidebar, handleSearch }) => {
                     </div>
                     <div className="avatar d-flex align-items-center cursor-pointer">
                         <img src={user.avatar} alt={user.name} />
-                        <p className='m-0 ms-2' style={{fontSize: '15px'}}>{user.name}</p>
+                        <p className='m-0 ms-2 d-none d-lg-block d-md-block' style={{fontSize: '15px'}}>{user.name}</p>
                         <Dropdown>
                             <Dropdown.Toggle id="dropdown-basic" style={{backgroundColor: 'transparent', border: "none"}}>
                             <img className='m-0 ms-2' src={imagePaths.down} alt="" id="dropdown-basic"/>

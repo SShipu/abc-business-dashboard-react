@@ -49,7 +49,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar, activeTab, handleTabChange }) =
 
     return (
         <aside className="sidebar mobile-view" id='sidebar' style={{ backgroundColor: "white", height: "100%", borderRight: "1px solid #E8E8E8"}}>
-            <main className='overflow-y-scroll'>
+            <main className='overflow-y-scroll h-100'>
                 <div className='d-flex align-items-center justify-content-center cursor-pointer' style={{height: "100px"}} onClick={() => handleToggle()}>
                     <img src={imagePaths.logo} alt="" />
                     <div className='ms-2' >
