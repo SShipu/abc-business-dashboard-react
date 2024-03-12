@@ -34,9 +34,9 @@ ABC Business Dashboard is a React-based web application developed to help busine
 
 `cd abc-business-dashboard`
 
-3. Switch to master branch
+3. Switch to main branch
 
-`git checkout master`
+`git checkout main`
 
 4. Install dependencies:
 
